@@ -14,17 +14,21 @@
         
         <h1 class="heading">Cash Register Manager</h1>
         <p class="description">Enter the bill amount and cash given by the customer and know the minimum number of notes to return.</p>
+
+        <p id="error-message"></p>
         
         <label for="bill-amount">Bill Amount</label>
         <input id="bill-amount" type="text">
         
-        <label for="cash-amount"> Cash Given</label>
-        <input id="cash-amount" type="text">
-        <p id="error-message"></p>
 
-        <button id="check-button">Check</button>
+        <button id="check-bill">Next</button>
 
-        <table class="change-table">
+        <label id="label" for="cash-amount" hidden>Cash Given</label>
+        <input id="cash-amount" type="text" hidden>
+
+        <button id="check-button" hidden>Check</button>
+        
+        <table class="change-table" hidden>
             <caption>Return Change</caption>
             <tr>
                 <th>No. of Notes</th>
