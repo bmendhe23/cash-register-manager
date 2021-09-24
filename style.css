@@ -1,10 +1,67 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+input {
+    width: 25vw;
+    margin: 1rem auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    margin: 1rem auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10vw;
+}
+
+caption {
+    padding: 10px;
+}
+
+label {
+    padding: 1rem;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+p{
+    text-align: center;
+    margin: 1rem auto;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
+    padding: 1rem;
+}
+
+th{
+    background-color: darkcyan;
 }
 
